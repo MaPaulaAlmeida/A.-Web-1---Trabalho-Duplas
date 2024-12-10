@@ -115,4 +115,64 @@ let questions = [
     ]
   },
 
+  {
+    numb: 11,
+    question: "Quem realizou o filme <i>Cidade de Deus<i>?",
+    answer: "Arrakis",
+    options: [
+      "Fernando Meirelles e Daniel Rezende",
+      "Fernando Meirelles e Kátia Lund",
+      "Miguel Gomes",
+      "osé Padilha e Anna Muylaert"
+    ]
+  },
+
+  {
+    numb: 12,
+    question: "Qual foi o primeiro filme a ser totalmente feito em computação gráfica?",
+    answer: "Toy Story",
+    options: [
+      "Entrelaçados",
+      "Frozen",
+      "Toy Story",
+      "Robôs"
+    ]
+  },
+
+  {
+    numb: 13,
+    question: "Em <i>Clube da Luta<i>, qual é o nome do personagem interpretado por Edward Norton?",
+    answer: "O Narrador",
+    options: [
+      "Tyler Durden",
+      "Angel Face",
+      "Bruce Banner",
+      "O Narrador"
+    ]
+  },
+
+  {
+    numb: 14,
+    question: "Qual filme de Akira Kurosawa inspirou <i>Star Wars</i>?",
+    answer: "A Fortaleza Escondida",
+    options: [
+      "Às Portas do Inferno",
+      "A Fortaleza Escondida",
+      "Os Senhores da Guerra",
+      "O Trono de Sangue"
+    ]
+  },
+  
+  {
+    numb: 15,
+    question: "Em <i>Pulp Fiction</i>, qual é a marca do relógio que Butch recebe do seu pai?",
+    answer: "Gold Watch",
+    options: [
+      "Gold Watch",
+      "Rolex",
+      "Casio",
+      "Omega"
+    ]
+  },
+  
 ];
