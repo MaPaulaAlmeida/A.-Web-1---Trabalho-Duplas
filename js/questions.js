@@ -12,7 +12,7 @@ let questions = [
   },
     {
     numb: 2,
-    question: "Em que ano foi lançado o filme <i>Titanic<i>, dirigido por James Cameron?",
+    question: "Em que ano foi lançado o filme <i>Titanic</i>, dirigido por James Cameron?",
     answer: "1997",
     options: [
       "1998",
@@ -93,7 +93,7 @@ let questions = [
 
   {
     numb: 9,
-    question: "Em <i>O Senhor dos Anéis<i>, qual é o nome da montanha onde o Anel foi forjado?",
+    question: "Em <i>O Senhor dos Anéis</i>, qual é o nome da montanha onde o Anel foi forjado?",
     answer: "Montanha da Perdição",
     options: [
       "Montanha da Perdição",
@@ -105,7 +105,7 @@ let questions = [
 
   {
     numb: 10,
-    question: "Em qual planeta se passa a maior parte do filme <i>Duna<i>?",
+    question: "Em qual planeta se passa a maior parte do filme <i>Duna</i>?",
     answer: "Arrakis",
     options: [
       "Zaun",
@@ -117,7 +117,7 @@ let questions = [
 
   {
     numb: 11,
-    question: "Quem realizou o filme <i>Cidade de Deus<i>?",
+    question: "Quem realizou o filme <i>Cidade de Deus</i>?",
     answer: "Arrakis",
     options: [
       "Fernando Meirelles e Daniel Rezende",
@@ -141,7 +141,7 @@ let questions = [
 
   {
     numb: 13,
-    question: "Em <i>Clube da Luta<i>, qual é o nome do personagem interpretado por Edward Norton?",
+    question: "Em <i>Clube da Luta</i>, qual é o nome do personagem interpretado por Edward Norton?",
     answer: "O Narrador",
     options: [
       "Tyler Durden",
@@ -174,5 +174,66 @@ let questions = [
       "Omega"
     ]
   },
+
+  {
+    numb: 16,
+    question: "Qual é o nome completo do diretor do clássico <i>Cidadão Kane</i>?",
+    answer: "George Orson Welles",
+    options: [
+      "Alfred Hitchcock",
+      "Charlie Chaplin",
+      "Martin Scorsese",
+      "George Orson Welles"
+    ]
+  },
   
+
+  {
+    numb: 17,
+    question: "Quem foi o diretor do filme <i>O Primeiro Encontro</i>?",
+    answer: "Denis Villeneuve",
+    options: [
+      "Todd Phillips",
+      "Denis Villeneuve",
+      "Yorgos Lanthimos",
+      "Ramy Youssef"
+    ]
+  },
+
+  {
+    numb: 18,
+    question: "Qual foi o último filme mudo a ganhar o Oscar de Melhor Filme?",
+    answer: "O Artista",
+    options: [
+      "Luzes da Cidade",
+      "Mudo",
+      "O Silêncio da Vingança",
+      "O Artista"
+    ]
+  },
+
+  {
+    numb: 19,
+    question: "Em <i>O Iluminado</i>, qual é o número do quarto assombrado no hotel Overlook?",
+    answer: "O Artista",
+    options: [
+      "Luzes da Cidade",
+      "Mudo",
+      "O Silêncio da Vingança",
+      "O Artista"
+    ]
+  },
+
+  {
+    numb: 20,
+    question: "Qual diretor é conhecido por usar o número 37 em quase todos os seus filmes?",
+    answer: "Kevin Smith",
+    options: [
+      "Mark Ruffalo",
+      "David Fincher",
+      "Kevin Smith",
+      "Quentin Tarantino"
+    ]
+  },
+
 ];
