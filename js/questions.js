@@ -1,7 +1,7 @@
 let questions = [
     {
     numb: 1,
-    question: "Qual é o nome do protagonista da franquia Indiana Jones?",
+    question: "Qual é o nome do protagonista da franquia <i>Indiana Jones</i>?",
     answer: "Dr. Henry Walton Jones Jr.",
     options: [
       "Peter Parker",
@@ -34,7 +34,7 @@ let questions = [
   },
     {
     numb: 4,
-    question: "Qual é o nome da princesa em A Bela e a Fera?",
+    question: "Qual é o nome da princesa em <i>A Bela e a Fera</i>?",
     answer: "Bela",
     options: [
       "Cinderela",
@@ -45,7 +45,7 @@ let questions = [
   },
     {
     numb: 5,
-    question: "Quem interpretou o Coringa no filme O Cavaleiro das Trevas?",
+    question: "Quem interpretou o Coringa no filme <i>O Cavaleiro das Trevas</i>?",
     answer: "Heath Ledger",
     options: [
       "Heath Ledger",
@@ -57,8 +57,8 @@ let questions = [
 
   {
     numb: 6,
-    question: "Qual diretor é conhecido como o 'mestre do suspense'?",
-    answer: " Alfred Hitchcock",
+    question: "Qual diretor é conhecido como o <i>'mestre do suspense'</i>?",
+    answer: "Alfred Hitchcock",
     options: [
       "Christopher Nolan",
       "Steven Spielberg",
@@ -69,7 +69,7 @@ let questions = [
 
   {
     numb: 7,
-    question: "Qual foi o primeiro longa de animação lançado pela Disney?",
+    question: "Qual foi o primeiro longa de animação lançado pela <i>Disney</i>?",
     answer: "Branca de Neve e os Sete Anões",
     options: [
       "As aventuras de Peter Pan",
@@ -81,7 +81,7 @@ let questions = [
 
   {
     numb: 8,
-    question: "Que filme ganhou o Oscar de Melhor Filme em 2020?",
+    question: "Que filme ganhou o <i>Oscar</i> de Melhor Filme em 2020?",
     answer: "Parasita",
     options: [
       "Oppenheimer",
@@ -118,12 +118,12 @@ let questions = [
   {
     numb: 11,
     question: "Quem realizou o filme <i>Cidade de Deus</i>?",
-    answer: "Arrakis",
+    answer: "Fernando Meirelles e Kátia Lund",
     options: [
       "Fernando Meirelles e Daniel Rezende",
       "Fernando Meirelles e Kátia Lund",
       "Miguel Gomes",
-      "osé Padilha e Anna Muylaert"
+      "José Padilha e Anna Muylaert"
     ]
   },
 
@@ -202,7 +202,7 @@ let questions = [
 
   {
     numb: 18,
-    question: "Qual foi o último filme mudo a ganhar o Oscar de Melhor Filme?",
+    question: "Qual foi o último filme mudo a ganhar o <i>Oscar</i> de Melhor Filme?",
     answer: "O Artista",
     options: [
       "Luzes da Cidade",
@@ -215,12 +215,12 @@ let questions = [
   {
     numb: 19,
     question: "Em <i>O Iluminado</i>, qual é o número do quarto assombrado no hotel Overlook?",
-    answer: "O Artista",
+    answer: "237",
     options: [
-      "Luzes da Cidade",
-      "Mudo",
-      "O Silêncio da Vingança",
-      "O Artista"
+      "237",
+      "235",
+      "666",
+      "890"
     ]
   },
 
