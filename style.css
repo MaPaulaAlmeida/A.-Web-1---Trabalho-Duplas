@@ -415,6 +415,7 @@ footer button.show {
     background: #000000;
 }
 
+/*MEDIA*/
 @media only screen and (max-width: 768px) {
     .start_btn button {
         font-size: 18px;

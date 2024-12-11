@@ -9,19 +9,19 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
-// Agregar el elemento de audio dinámicamente
-const backgroundMusic = new Audio('music.MP3'); // Ruta de la música
-backgroundMusic.loop = true; // Configurar para que la música se repita
-backgroundMusic.volume = 0.2; // Ajustar volumen (opcional)
 
-// Iniciar el quiz y reproducir la música
+const backgroundMusic = new Audio('music.MP3'); 
+backgroundMusic.loop = true; 
+backgroundMusic.volume = 0.4; 
+
+
 start_btn.onclick = () => {
     info_box.classList.add("activeInfo");
-    backgroundMusic.play(); // Reproducir la música cuando se inicia el quiz
+    backgroundMusic.play(); 
 }
 
 exit_btn.onclick = () => { 
-    window.location.href = "index.html"; // Redirige a la página principal desde info_box
+    window.location.href = "index.html"; 
 }
 
 continue_btn.onclick = () => { 
@@ -63,7 +63,7 @@ restart_quiz.onclick = () => {
 }
 
 quit_quiz.onclick = () => { 
-    window.location.href = "index.html"; // Redirige a la página principal desde result_box
+    window.location.href = "index.html"; 
 }
 
 const next_btn = document.querySelector("footer .next_btn");
@@ -111,21 +111,21 @@ let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
 function optionSelected(answer) {
-    clearInterval(counter); // Limpiar el contador
-    clearInterval(counterLine); // Limpiar el contador de la línea de tiempo
-    let userAns = answer.textContent; // Obtener la opción seleccionada por el usuario
-    let correcAns = questions[que_count].answer; // Obtener la respuesta correcta
-    const allOptions = option_list.children.length; // Obtener todas las opciones
+    clearInterval(counter); 
+    clearInterval(counterLine); 
+    let userAns = answer.textContent; 
+    let correcAns = questions[que_count].answer; 
+    const allOptions = option_list.children.length; 
     
-    if (userAns == correcAns) { // Si la opción seleccionada es correcta
-        userScore += 1; // Aumentar el puntaje
-        answer.classList.add("correct"); // Agregar color verde a la opción correcta
-        answer.insertAdjacentHTML("beforeend", tickIconTag); // Agregar ícono de verificación
+    if (userAns == correcAns) { 
+        userScore += 1; 
+        answer.classList.add("correct"); 
+        answer.insertAdjacentHTML("beforeend", tickIconTag); 
         console.log("Correct Answer");
         console.log("Your correct answers = " + userScore);
     } else {
-        answer.classList.add("incorrect"); // Agregar color rojo a la opción incorrecta
-        answer.insertAdjacentHTML("beforeend", crossIconTag); // Agregar ícono de cruz
+        answer.classList.add("incorrect");
+        answer.insertAdjacentHTML("beforeend", crossIconTag); 
         console.log("Wrong Answer");
 
         for (let i = 0; i < allOptions; i++) {
