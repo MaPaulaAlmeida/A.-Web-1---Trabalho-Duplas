@@ -14,6 +14,6 @@ O tema do quiz reflecte a nossa admiração pelo cinema e o nosso desejo de cria
 
 Esperamos que gostem do _CineQuizz_ tanto quanto nós gostámos de o criar!
 
-✨Lara e Maria Paula✨
+✨Lara e María Paula✨
 
 _Luzes, Câmara e Ação🎬_
