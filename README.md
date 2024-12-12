@@ -10,7 +10,7 @@ O funcionamento do quiz é simples, mas interessante. Quando o utilizador entra 
 
 Após cada resposta, a pergunta seguinte aparecerá automaticamente e, no final do questionário, será apresentada a sua pontuação final, revelando quantas respostas corretas obteve. Dependendo da sua pontuação, pode descobrir o seu nível de cinéfilo: com **_mais de 15_ respostas corretas é considerado um cinéfilo**, **com _mais de 10_ é considerado um quase cinéfilo** e com **_menos de 10_ainda tem de aprender mais sobre o fascinante mundo do cinema.**
 
-O tema do quiz reflecte a nossa admiração pelo cinema e o nosso desejo de criar algo único. Tudo começa com uma página inicial _(home page)_, onde um vídeo compila as melhores cenas de filmes para envolver os participantes desde o primeiro momento. Ao entrar no teste, é adicionada música de fundo num volume baixo para não incomodar, criando uma atmosfera imersiva e agradável. Além disso, todos os pormenores visuais, incluindo o design do fundo, são inspirados nos nossos posters de filmes favoritos, tornando o _CineQuizz_ uma experiência intimamente ligada à sétima arte.
+O tema do quiz reflete a nossa admiração pelo cinema e o nosso desejo de criar algo único. Tudo começa com uma página inicial _(home page)_, onde um vídeo compila as melhores cenas de filmes para envolver os participantes desde o primeiro momento. Ao entrar no teste, é adicionada música de fundo num volume baixo para não incomodar, criando uma atmosfera imersiva e agradável. Além disso, todos os pormenores visuais, incluindo o design do fundo, são inspirados nos nossos posters de filmes favoritos, tornando o _CineQuizz_ uma experiência intimamente ligada à sétima arte.
 
 Esperamos que gostem do _CineQuizz_ tanto quanto nós gostámos de o criar!
 
