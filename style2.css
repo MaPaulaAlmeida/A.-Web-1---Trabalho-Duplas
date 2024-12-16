@@ -1,0 +1,117 @@
+/*IMPORTED GOOGLE FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Text";
+}
+
+body {
+    position: relative; 
+    height: 100vh;  
+    margin: 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.container {
+    background-color: #000000d2; 
+    border-radius: 15px; 
+    padding: 30px 40px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    width: 90%; 
+    max-width: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; 
+}
+
+header {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #B82020;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #B82020;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 30px; 
+        width: 85%;
+    }
+
+    header {
+        font-size: 24px; 
+    }
+
+    p {
+        font-size: 16px; 
+    }
+
+    button {
+        font-size: 16px; 
+        padding: 12px 25px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px 20px; 
+        width: 90%;
+    }
+
+    header {
+        font-size: 20px; 
+    }
+
+    p {
+        font-size: 14px; 
+    }
+
+    button {
+        font-size: 14px; 
+        padding: 10px 20px; 
+    }
+}

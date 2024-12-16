@@ -1,73 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun Quizz - Are you a TRUE Cinephile?</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>CineQuizz - És um verdadeiro cinéfilo?</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
 </head>
 <body>
-    <!--START QUIZZ BUTTON-->
-    <div class="start_btn"><button> START QUIZZ</button></div>
-    <!--RULES BOX-->
-    <div class="info_box">
-        <div class="info-title"><span>Rules of the Quizz:</span></div>
-        <div class="info-list">
-            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
-            <div class="info">2. Rule...</div>
-            <div class="info">3. Rule...</div>
-            <div class="info">4. Rule...</div>
-            <div class="info">5. Rule...</div>
-        </div>
-        <div class="buttons">
-            <button class="quit"> Exit Quizz</button>
-            <button class="restart"> Continue</button>
-        </div>
-    </div>
 
-    <!--QUIZZ BOX-->
-    <div class="quiz_box">
-        <header>
-            <div class="title">Unique Cinephile Quizz</div>
-            <div class="timer">
-                <div class="time_left_txt">Time Left</div>
-                <div class="timer_sec">15</div>
-            </div>
-            <div class="time_line"></div>
-        </header>
-        <section>
-            <div class="que_text">
-                <!--INSERT PART OF JAVASCRIPT: QUESTIONS-->
-            </div>
-            <div class="option_list">
-                <!--INSERT PART OF JAVASCRIPT: OPTIONS-->
-            </div>
-        </section>
-        <!--FOOTER QUIZZ BOX-->
-        <footer>
-            <div class="total_que">
-                <!--INSERT PART OF JAVASCRIPT: QUESTIOS COUNT NUMBER-->
-            </div>
-            <button class="next_btn"> Next Question</button>
-        </footer>
-    </div>
-
-    <!--RESULTS BOX-->
-    <div class="result_box">
-        <div class="result_box">
-            <div class="icon">
-                <i class="fas fa-crown"></i>
-            </div>
-        <div class="complete_text"> You have finished the Cinephile Quizz!</div>
-        <div class="score_text">
-            <!--INSERT PART OF JAVASCRIPT: SCORE RESULT-->
-        </div>
-        <!--BUTTONS-->
-        <div class="buttons">
-            <button class="restart">Replay Quizz</button>
-            <button class="quit">Quit Quizz</button>
-        </div>
+    <video autoplay muted loop id="background-video">
+        <source src="images/video_bg.mp4" type="video/mp4">
+    </video>
+    
+    <div class="container">
+        <header>Bem-vindo ao CineQuizz!</header>
+        <p>Prepara-te para pôr à prova os teus conhecimentos cinematográficos com perguntas que te levarão a percorrer todos os géneros e épocas do cinema. Só os verdadeiros cinéfilos serão capazes de as superar.</p>
+        <button onclick="window.location.href='quizz.html';">Comecemos a aventura!</button>
     </div>
 
 </body>
