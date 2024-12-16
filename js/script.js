@@ -1,5 +1,4 @@
 // SELECTING ALL REQUIRED ELEMENTS
-const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
@@ -15,10 +14,9 @@ const backgroundMusic = new Audio('music.MP3');
 backgroundMusic.loop = true;
 backgroundMusic.volume = 0.4;
 
-// WHEN START BUTTON IS CLICKED
-start_btn.onclick = () => {
-    info_box.classList.add("activeInfo"); // SHOW INFO BOX
-    backgroundMusic.play(); // START MUSIC
+// AUTOMATICALLY DISPLAY INFO_BOX WHEN THE PAGE LOADS
+window.onload = () => {
+    info_box.classList.add("activeInfo");
 };
 
 // WHEN EXIT BUTTON IS CLICKED
@@ -210,6 +208,6 @@ function startTimerLine(time) {
 
 // FUNCTION TO UPDATE QUESTION COUNTER
 function queCounter(index) {
-    let totalQueCounTag = '<span><p>' + index + '</p> de <p>' + questions.length + '</p> Perguntas</span>';
+    let totalQueCounTag = '<span><p>' + index + '</p> de <p>' + questions.length + '</p>Perguntas</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;
 }
