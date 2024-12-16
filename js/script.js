@@ -83,7 +83,7 @@ next_btn.onclick = () => {
         clearInterval(counterLine); // RESET TIMELINE
         startTimer(timeValue); // RESTART TIMER
         startTimerLine(widthValue); // RESTART TIMELINE
-        timeText.textContent = "Time Left"; // RESET TIMER TEXT
+        timeText.textContent = "Tempo"; // RESET TIMER TEXT
         next_btn.classList.remove("show"); // HIDE NEXT BUTTON
     } else {
         clearInterval(counter); // STOP TIMER
@@ -194,12 +194,44 @@ function startTimer(time) {
     }
 }
 
+// FUNCTION TO START TIMER
+function startTimer(time) {
+    counter = setInterval(timer, 1000);
+    function timer() {
+        if (time < 10 && time >= 0) {
+            timeCount.textContent = "0" + time;
+        } else {
+            timeCount.textContent = time;
+        }
+        
+        time--; 
+
+        if (time < 0) {
+            clearInterval(counter);
+            timeText.textContent = "Fim";
+            const allOptions = option_list.children.length;
+            let correcAns = questions[que_count].answer;
+            for (let i = 0; i < allOptions; i++) {
+                if (option_list.children[i].textContent == correcAns) {
+                    option_list.children[i].setAttribute("class", "option correct");
+                    option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag);
+                }
+            }
+            for (let i = 0; i < allOptions; i++) {
+                option_list.children[i].classList.add("disabled");
+            }
+            next_btn.classList.add("show");
+        }
+    }
+}
+
 // FUNCTION TO START TIMELINE
 function startTimerLine(time) {
     counterLine = setInterval(timer, 29);
     function timer() {
         time += 1;
-        time_line.style.width = time + "px";
+        let formattedTime = time < 10 ? "0" + time : time; 
+        time_line.style.width = time + "px"; 
         if (time > 549) {
             clearInterval(counterLine);
         }
