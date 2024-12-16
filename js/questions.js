@@ -34,18 +34,18 @@ let questions = [
   },
     {
     numb: 4,
-    question: "Qual é o nome da princesa em <i>A Bela e a Fera</i>?",
+    question: "Qual é o nome da princesa em <i>A Bela e o Monstro</i>?",
     answer: "Bela",
     options: [
       "Cinderela",
       "Aurora",
       "Bela",
-      "Fera"
+      "Monstro"
     ]
   },
     {
     numb: 5,
-    question: "Quem interpretou o Coringa no filme <i>O Cavaleiro das Trevas</i>?",
+    question: "Quem interpretou o Joker no filme <i>O Cavaleiro das Trevas</i>?",
     answer: "Heath Ledger",
     options: [
       "Heath Ledger",
